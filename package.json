@@ -1,0 +1,35 @@
+{
+  "name": "@comparaonline/stylelint-config-css",
+  "version": "1.0.0",
+  "description": "ComparaOnline stylelint configuration for CSS projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comparaonline/stylelint-config-css"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "comparaonline"
+  ],
+  "author": "Esteban Martini <emartini@comparaonline.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comparaonline/stylelint-config-css/issues"
+  },
+  "homepage": "https://github.com/comparaonline/stylelint-config-css#readme",
+  "peerDependencies": {
+    "stylelint": "^7.11.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.0",
+    "stylelint": "^7.11.0"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.5.0"
+  }
+}
