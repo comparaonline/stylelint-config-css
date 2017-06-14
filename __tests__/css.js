@@ -93,33 +93,6 @@ describe('vendor prefix', () => {
   });
 });
 
-const invalidAlphabeticalOrder = (
-`.selector {
-  transition: all 4s ease;
-  color: blue;
-}
-`);
-
-const validAlphabeticalOrder = (
-`.selector {
-  color: blue;
-  transition: all 4s ease;
-}
-`);
-
-describe('order/properties-alphabetical-order', () => {
-  it("fails", () => {
-    result = stylelint.lint({ code: invalidAlphabeticalOrder, config });
-    return result.then(data => expect(data.errored).toBe(true));
-  });
-
-  it("passes", () => {
-    result = stylelint.lint({ code: validAlphabeticalOrder, config });
-    return result.then(data => expect(data.errored).toBe(false));
-  });
-});
-
-
 describe('max-line-length', () => {
   it("fails", () => {
     result = stylelint.lint({ code: tooLongLine, config });

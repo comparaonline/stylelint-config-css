@@ -31,6 +31,6 @@ Now you can execute `stylelint` in a npm script, as example:
 
 ```json
 "scripts": {
-  "lint:styles": "stylelint './app/**/*.scss'"
+  "lint:styles": "stylelint './app/**/*.css'"
 }
 ```
