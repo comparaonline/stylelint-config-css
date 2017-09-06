@@ -12,7 +12,7 @@
     "media-feature-name-no-vendor-prefix": true,
     "property-no-vendor-prefix": true,
     "selector-max-compound-selectors": 2,
-    "selector-no-id": true,
+    "selector-max-id": 0,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-element-colon-notation": "double",
     "value-no-vendor-prefix": true
