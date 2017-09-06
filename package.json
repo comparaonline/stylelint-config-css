@@ -1,6 +1,6 @@
 {
   "name": "@comparaonline/stylelint-config-css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ComparaOnline stylelint configuration for CSS projects",
   "main": "index.js",
   "scripts": {
